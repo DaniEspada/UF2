@@ -60,7 +60,7 @@ public class notas {
 	/**
 	 *  Metodo para comprobar que la nota ingresa es menor a 10 o si es mayor
 	 */
-	public void comprobarcion(){
+	public void comprobacionotas(){
 		
 		if (nota1>10) {
 			System.out.println(" nota1 mal introducida");
@@ -149,7 +149,7 @@ public class notas {
 		
 		fc.IngresaNotas();
 		
-		fc.comprobarcion();
+		fc.comprobacionotas();
 		
 
 		fc.Calculonotas();
